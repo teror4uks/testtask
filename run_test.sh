@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $WORKING_DIR
+
 if [ ! -d env ]; then
 	virtualenv env
 fi
